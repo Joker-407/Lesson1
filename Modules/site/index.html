@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./scripts/index.js" type="module"></script>
+</head>
+<body>
+    <button class="turnDate">Даты</button>
+    <button class="turnTimer">Таймер</button>
+    <h1>Калькулятор дат</h1>
+    <form action="" id="form">
+        <label for="date1">
+            <b>Первая дата:</b>
+            <input type="date" name="date1" id="date1">
+        </label>
+        <label for="date2">
+            <b>Вторая дата:</b>
+            <input type="date" name="date2" id="date2">
+        </label>
+        <button type="submit">Расчет</button>
+    </form>
+    <form action="" id="timer" style="display:none">
+        <input type="text" name="time" id="time">
+        <button id="start">Старт</button>
+        <button id="stop" style="display:none;">Стоп</button>
+        <div id="timer"></div>
+    </form>
+    <p class="message">Расчёт</p>
+</body>
+</html>
